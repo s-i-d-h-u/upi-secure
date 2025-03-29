@@ -1,0 +1,22 @@
+.home-container {
+    text-align: center;
+    padding: 140px;
+    flex-direction: column;
+  }
+  
+  .home-container h1 {
+    margin-top: 50px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .home-buttons {
+    margin-top: 20px;
+  }
+  
+  .home-buttons button {
+    margin: 10px;
+  }
+  
