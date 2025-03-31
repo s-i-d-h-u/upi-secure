@@ -5,6 +5,8 @@ import Home from "./pages/Home/Home";
 import Login from "./pages/Login/Login";
 import TransactionForm from "./pages/TransactionForm/TransactionForm";
 import History from "./pages/History/History";
+import Register from "./pages/Register/Register";
+import About from "./pages/About/About"; // Import the About component
 import "./App.css";
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/transaction" element={<TransactionForm />} />
         <Route path="/history" element={<History />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/about" element={<About />} /> {/* Add the About route */}
       </Routes>
     </BrowserRouter>
   );
